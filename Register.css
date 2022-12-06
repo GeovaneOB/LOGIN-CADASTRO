@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    background:  #252525;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #131313;
+    width: 360px;
+    height: 525px;
+    color: #EEEEEE;
+    text-align: center;
+    box-shadow: 0 0 50px blueviolet;
+    border-radius: 10px;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    width: 70%;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 15%;
+    background-color: #252525;
+    border: none;
+    box-shadow: 0 0 35px rgb(0, 0, 0);
+    box-sizing: border-box;
+    color: #EEEEEE;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+h2{
+    margin-top: 20%;
+    letter-spacing: 2px;
+}
+
+.submit_button input{
+    width: 50%;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #EEEEEE;
+    align-items: center;
+    margin-left: 25%;
+    border-radius: 8px;
+    margin-top: 8%;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+}
+
+.terms dt{
+    text-decoration: none;
+    color: blueviolet;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 13px;
+}
+
+.terms a{
+    text-decoration: none;
+}
+
+.membro p{
+    margin-top: 7%;
+    font-size: 12px;
+    color: #eeeeeec4;
+}
+
+.membro a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+img{
+    position: absolute;
+    top: 7%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    opacity: 50%;
+}
